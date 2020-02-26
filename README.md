@@ -42,7 +42,14 @@ Go to the url 0.0.0.0:8000 to test
 ## Running The Application With Docker and Docker Compose
 
 
-
-
-
+## Things to do
+- Nginx Proxy for project
+- Document - IN PROGRESS
+- Postgresql database - DONE
+- Correct layout
+- Dockerise App - DONE
+- docker-compose - BASIC DONE
+- Set up testing
+- admin username and password for Django(secure) - DONE
+- sql username and passwords(secure)
 
