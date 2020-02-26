@@ -7,13 +7,16 @@ Set Up Virtualenv:
 `virtualenv --python=<path_to_python3> venv`
 
 Activate the environment:
+
 `source venv/bin/activate`
 
 Install requirements:
-pip install -r requirements.txt
+
+`pip install -r requirements.txt`
 
 Start up a postgres instance:
-docker run --rm -d --name postgres-test -e POSTGRES_PASSWORD=docker -p 5432:5432 postgres
+
+`docker run --rm -d --name postgres-test -e POSTGRES_PASSWORD=docker -p 5432:5432 postgres`
 
 Set up the postgres databases and users:
 - psql postgres -h localhost -U postgres
