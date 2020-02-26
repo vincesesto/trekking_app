@@ -37,7 +37,8 @@ python manage.py runserver 0.0.0.0:8000
 Go to the url 0.0.0.0:8000 to test 
 
 ## How To Use The Application
-
+- Log into the admin interface to add content at 0.0.0.0:8000/admin
+- View images and content from the 0.0.0.0:8000/photo_viewer
 
 ## Running The Application With Docker and Docker Compose
 
