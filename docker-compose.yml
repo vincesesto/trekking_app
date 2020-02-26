@@ -1,0 +1,17 @@
+
+version: '3'
+
+services:
+  web:
+    build: .
+    command: bash -c "python manage.py makemigrations && \
+                      python manage.py migrate && \
+                      python manage.py shell -c \"from django.contrib.auth.models import User; \
+                           User.objects.filter(username='admin').exists() or \
+                           User.objects.create_superuser('admin','admin.admin@example.com', 'changeme')\" && \
+                      python manage.py runserver 0.0.0.0:8000"
+    container_name: service
+    volumes:
+      - .:/service
+    ports:
+      - "8000:8000"
