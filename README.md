@@ -1,6 +1,6 @@
-# trekking_app
+# Panoramic Trekking App
 
-## Running As A Test Applications
+## Running As A Test Django Applications
 
 Set Up Virtualenv:
 
@@ -35,3 +35,14 @@ python manage.py runserver 0.0.0.0:8000
 ```
 
 Go to the url 0.0.0.0:8000 to test 
+
+## How To Use The Application
+
+
+## Running The Application With Docker and Docker Compose
+
+
+
+
+
+
