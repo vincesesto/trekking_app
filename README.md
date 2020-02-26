@@ -3,6 +3,7 @@
 ## Running As A Test Applications
 
 Set Up Virtualenv:
+
 `virtualenv --python=<path_to_python3> venv`
 
 Activate the environment:
