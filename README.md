@@ -1,14 +1,12 @@
 # trekking_app
 
-## Getting Started
-Make sure you have your database running.
-Check the settings file to verify you can access.
+## Running As A Test Applications
 
 Set Up Virtualenv:
-virtualenv --python=<path_to_python3> venv
+`virtualenv --python=<path_to_python3> venv`
 
 Activate the environment:
-source venv/bin/activate
+`source venv/bin/activate`
 
 Install requirements:
 pip install -r requirements.txt
