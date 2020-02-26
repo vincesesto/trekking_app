@@ -26,6 +26,16 @@ create database pta_database with owner pta_user;
 grant all privileges on all tables in schema public to pta_user;
 ```
 
+Export Your Variables
+```
+export SQL_ENGINE=django.db.backends.postgresql
+export SQL_DATABASE=pta_database
+export SQL_USER=pta_user
+export SQL_PASSWORD=pta_password
+export SQL_HOST=localhost
+export SQL_PORT=5432
+```
+
 Django migrate and run the server:
 ```
 python manage.py makemigrations
