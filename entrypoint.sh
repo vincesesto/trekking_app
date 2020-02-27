@@ -11,7 +11,10 @@ then
     echo "PostgreSQL started"
 fi
 
-if [ "$( psql -h db -U postgres -tAc "SELECT 1 FROM pg_database WHERE datname='pta_database'" )" == '1' ]
+DBTEST=`psql -h db -U postgres -tAc "SELECT 1 FROM pg_database WHERE datname='pta_database'"`
+echo $DBTEST
+
+if [ $DBTEST -eq 1 ]
 then
     echo "pta_database already exists"
 else

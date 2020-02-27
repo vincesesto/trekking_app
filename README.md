@@ -51,7 +51,15 @@ Go to the url 0.0.0.0:8000 to test
 - View images and content from the 0.0.0.0:8000/photo_viewer
 
 ## Running The Application With Docker and Docker Compose
+The sample docker-compose.yml script runs the Django Application
+and also brings up a Database...It automates the process of creating the
+specific users and databases on postgres before handling the migration.
 
+```
+docker-compose build
+...
+docker-compose up -d
+```
 
 ## Things to do
 - Nginx Proxy for project
