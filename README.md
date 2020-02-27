@@ -63,12 +63,14 @@ docker-compose up -d
 
 ## Things to do
 - Nginx Proxy for project
-- Document - IN PROGRESS
-- Postgresql database - DONE
 - Correct layout
-- Dockerise App - DONE
-- docker-compose - BASIC DONE
 - Set up testing
+- Document - DONE
+- Set up redis caching
+- Set up producting server
+- Postgresql database - DONE
+- Dockerise App - DONE
+- docker-compose - DONE
 - admin username and password for Django(secure) - DONE
-- sql username and passwords(secure)
+- sql username and passwords(secure) - DONE
 
