@@ -65,9 +65,9 @@ docker-compose up -d
 - Nginx Proxy for project
 - Correct layout
 - Set up testing
-- Document - DONE
 - Set up redis caching
 - Set up producting server
+- Document - DONE
 - Postgresql database - DONE
 - Dockerise App - DONE
 - docker-compose - DONE
