@@ -3,6 +3,7 @@
 
 {% block page_content %}
 <h1>{{ photo.title }}</h1>
+<a href="{% url 'photo_index' %}">Return to photo viewer</a>&nbsp;
 <div class="row">
     <div class="col-md-8">
         <img src="{{ photo.photo.url }}" alt="" width="100%">

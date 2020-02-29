@@ -55,6 +55,21 @@ The sample docker-compose.yml script runs the Django Application
 and also brings up a Database...It automates the process of creating the
 specific users and databases on postgres before handling the migration.
 
+The Dockerfile will need to include a .env.dev file which is mounted:
+Add the following details in the file:
+
+```
+SQL_ENGINE=django.db.backends.postgresql
+SQL_DATABASE=pta_database
+SQL_USER=pta_user
+SQL_PASSWORD=pta_password
+SQL_HOST=db
+SQL_PORT=5432
+PGPASSWORD=docker
+```
+
+Then run the following:
+
 ```
 docker-compose build
 ...
