@@ -76,6 +76,16 @@ docker-compose build
 docker-compose up -d
 ```
 
+## Using the application
+
+
+![Panoramic Trekking App Photo Viewer Page](/screenshots/PanoramicTrekkingAppPhotoViewer.png)
+Format: ![Alt Text](url)
+
+
+
+
+
 ## Things to do
 - Nginx Proxy for project
 - Correct layout
