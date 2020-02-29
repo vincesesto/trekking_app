@@ -78,12 +78,23 @@ docker-compose up -d
 
 ## Using the application
 
-# Adding new categories(countries)
+Once the application is running, you use the Django Administration console
+to add your images and list of countries your images are from.
 
+```
+http://127.0.0.1:8000/admin/
+```
+![Panoramic Trekking App Photo Viewer Page](/screenshots/DjangoAdminPage.png)
+
+# Adding new categories(countries)
+Simply click on the add button next to Countries to add a list of countries
 
 # Adding in new images
+Click on the add button next to Photos and your see a screen similar to the
+screenshot below. Enter a title for the image, details of the image, browse to 
+where the image is and country the image is from. Then save.
 
-![Panoramic Trekking App Photo Viewer Page](/screenshots/PTAAdminScreen.png)
+![Panoramic Trekking App Photo Viewer Page](/screenshots/AddingImages.png)
 
 # Viewing the site
 Viewing all the images on the site
