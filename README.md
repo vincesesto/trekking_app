@@ -78,24 +78,39 @@ docker-compose up -d
 
 ## Using the application
 
+# Adding new categories(countries)
 
+
+# Adding in new images
+
+![Panoramic Trekking App Photo Viewer Page](/screenshots/PTAAdminScreen.png)
+
+# Viewing the site
+Viewing all the images on the site
+```
+http://127.0.0.1:8000/photo_viewer/
+'''
 ![Panoramic Trekking App Photo Viewer Page](/screenshots/PanoramicTrekkingAppPhotoViewer.png)
-Format: ![Alt Text](url)
 
+Clicking on the Country name on each image or on the main page will bring up all the images for this country
 
+![Panoramic Trekking App Photo Viewer Page](/screenshots/ViewByCategoryCountry.png)
 
+Clicking on the Read More button to view more details about the image
+
+![Panoramic Trekking App Photo Viewer Page](/screenshots/ViewImageDetails.png)
 
 
 ## Things to do
 - Nginx Proxy for project
-- Correct layout
+- [x] Correct layout
 - Set up testing
 - Set up redis caching
 - Set up producting server
-- Document - DONE
-- Postgresql database - DONE
-- Dockerise App - DONE
-- docker-compose - DONE
-- admin username and password for Django(secure) - DONE
-- sql username and passwords(secure) - DONE
+- [x] Document
+- [x] Postgresql database
+- [x] Dockerise App
+- [x] docker-compose
+- [x] admin username and password for Django(secure)
+- [x] sql username and passwords(secure)
 
