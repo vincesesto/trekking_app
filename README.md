@@ -89,7 +89,7 @@ docker-compose up -d
 Viewing all the images on the site
 ```
 http://127.0.0.1:8000/photo_viewer/
-'''
+```
 ![Panoramic Trekking App Photo Viewer Page](/screenshots/PanoramicTrekkingAppPhotoViewer.png)
 
 Clicking on the Country name on each image or on the main page will bring up all the images for this country
