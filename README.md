@@ -70,6 +70,12 @@ PGPASSWORD=docker
 
 Then run the following:
 
+Export the password for the database so it can be connected to via the entrypoint script
+
+```
+export PGPASSWORD=docker
+```
+
 ```
 docker-compose build
 ...
