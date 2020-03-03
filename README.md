@@ -88,7 +88,7 @@ Once the application is running, you use the Django Administration console
 to add your images and list of countries your images are from.
 
 ```
-http://127.0.0.1:8000/admin/
+http://0.0.0.0:1337/admin/
 ```
 ![Panoramic Trekking App Photo Viewer Page](/screenshots/DjangoAdminPage.png)
 
