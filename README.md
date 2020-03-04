@@ -119,11 +119,11 @@ Clicking on the Read More button to view more details about the image
 
 
 ## Things to do
-- Nginx Proxy for project
+- [x] Nginx Proxy for project
 - [x] Correct layout
 - Set up testing
 - Set up redis caching
-- Set up producting server
+- [x]Set up production server
 - [x] Document
 - [x] Postgresql database
 - [x] Dockerise App
