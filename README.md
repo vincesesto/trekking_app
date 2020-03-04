@@ -123,7 +123,7 @@ Clicking on the Read More button to view more details about the image
 - [x] Correct layout
 - Set up testing
 - Set up redis caching
-- [x]Set up production server
+- [x] Set up production server
 - [x] Document
 - [x] Postgresql database
 - [x] Dockerise App
