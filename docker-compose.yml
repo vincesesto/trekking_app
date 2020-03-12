@@ -1,5 +1,5 @@
 
-version: '3'
+version: '3.3'
 
 services:
   web:
@@ -20,6 +20,8 @@ services:
       - postgres_data:/var/lib/postgresql/data/
     environment:
       - POSTGRES_PASSWORD=docker
+    ports:
+      - 5432:5432
 
   nginx:
     build: ./nginx

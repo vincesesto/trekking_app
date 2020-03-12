@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 {% block page_content %}
+
 <h1>Panoramic Trekking App - Photo Viewer</h1>
 <div class="row">
 {% for panoramics in photos %}
@@ -20,7 +21,7 @@
                     {% endfor %}
                 </small>
                 <a href="{% url 'photo_detail' panoramics.pk %}"
-                   class="btn btn-primary">
+                    class="btn btn-primary">
                     Read More
                 </a>
             </div>
